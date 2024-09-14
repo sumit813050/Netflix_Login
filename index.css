@@ -1,0 +1,46 @@
+.netflix-logo{
+    margin-top: -0.4rem;
+    margin-left: 1.7rem;
+}
+
+.container{
+    position: relative;
+    margin: auto;
+    width: 400px;
+}
+.subcontainer{
+    background-color: #333333;
+    border:1px; 
+    border-radius: 3px;  
+    color:black; 
+    font-size: 16px;
+}
+.btn-red{
+    width:100%; 
+    background-color:#e50914;
+    max-width: 100%;
+    cursor: pointer; 
+    border: 1px; 
+    margin-bottom: 20px;
+
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+@media (max-width: 700px){
+    
+    .netflix-logo-img{
+        display: inline-block;
+        width:100px;
+    }
+    .container{
+        position: relative;
+        margin: auto;
+        width: auto;
+    }
+}
